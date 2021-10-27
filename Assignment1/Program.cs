@@ -26,7 +26,10 @@ namespace Assignment1
             {
                 //pr.walk("C:/Users/aksha/Downloads/Sample Data/Test");
                 DateTime start = DateTime.Now;
-                pr.walk("C:\\Users\\aksha\\Downloads\\Sample Data\\Sample Data");
+                //pr.walk("C:\\Users\\aksha\\Downloads\\Sample Data\\Sample Data");
+                string rootfolder = AppContext.BaseDirectory.Substring(0, AppContext.BaseDirectory.IndexOf("bin"));
+                String fileDir = rootfolder + "Sample Data/";
+                pr.walk(fileDir);
                 DateTime end = DateTime.Now;
                 pr.logger.info("Total row count : " + (validRowCount + inValidRowCount));
                 pr.logger.info("Total valid row count : " + validRowCount);

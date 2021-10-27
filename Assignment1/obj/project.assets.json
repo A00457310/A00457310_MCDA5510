@@ -332,11 +332,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SMU\\ed-A00457310_MCDA5510\\Assignment1.csproj",
+      "projectUniqueName": "D:\\SMU1\\ed-A00457310_MCDA5510\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "D:\\SMU\\ed-A00457310_MCDA5510\\Assignment1.csproj",
+      "projectPath": "D:\\SMU1\\ed-A00457310_MCDA5510\\Assignment1\\Assignment1.csproj",
       "packagesPath": "C:\\Users\\aksha\\.nuget\\packages\\",
-      "outputPath": "D:\\SMU\\ed-A00457310_MCDA5510\\obj\\",
+      "outputPath": "D:\\SMU1\\ed-A00457310_MCDA5510\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aksha\\AppData\\Roaming\\NuGet\\NuGet.Config",
